@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./commanstyle.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .imageGallery{
+            display: grid;
+            width: 600px;
+            height: 600px;
+            gap:5px;
+            margin: 20px auto;
+            background-color: pink;
+            padding: 10px;
+        }
+        .imgOne{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .imgTwo{
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 5;
+        }
+        .imgThree{
+                 grid-column-start: 1;
+            grid-column-end: 2;
+              grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .imgFour{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .imgFive{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        .imageGallery img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+<body>
+        <nav>
+        <div class="navbar">
+            <div class="navList"><a href="./index.html" class="navItem " >Home</a></div>
+            <div class="navList"><a href="#" class="navItem activePage">Gallery</a></div>
+            <div class="navList"><a href="./ContactUs.html" class="navItem">Contact Us</a></div>
+            <div class="navList"><a href="./aboutUs.html" class="navItem">About Us</a></div>
+        </div>
+    </nav>
+
+
+
+<main>
+    <section>
+        <div class="imageGallery">
+            <div class="imgOne"><img src="./assets/heroSection.jpg" alt="" class="imgGal"/></div>
+            <div class="imgTwo"><img src="./assets/butterscotch.jpg" alt="" class="imgGal"/></div>
+            <div class="imgThree"><img src="./assets/contactPageBG.jpg" alt="" class="imgGal"/></div>
+            <div class="imgFour"><img src="./assets/mango.jpg" alt="" class="imgGal"/></div>
+            <div class="imgFive"><img src="./assets/strawberry.jpg" alt="" class="imgGal"/></div>
+
+        </div>
+    </section>
+</main>
+
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+
+
+
+
+
+
+    
+    <footer>
+        <div class="footer">
+            <div>
+                <h3>CONTACT US</h3>
+                <address> 55 ABCD & 56 D, Kandivali Industrial Estate, <br />Charkop, Kandivali (W), Mumbai – 400 067.
+                </address>
+                <p><i class="fa-solid fa-envelope"></i> customercare@icecream.in</p>
+
+                <p><i class="fa-solid fa-phone"></i> 888888888</p>
+
+            </div>
+            <div>
+                <h3>ABOUT OUR ICECREAM</h3>
+                <a href="#">Ingredient Story</a> <br />
+                <a href="#">Our Legacy</a> <br />
+                <a href="#">Franchise Queries</a>
+
+            </div>
+            <div>
+                <h3>OTHERS</h3>
+                <address> 55 ABCD & 56 D, Kandivali Industrial Estate, <br />Charkop, Kandivali (W), Mumbai – 400 067.
+                </address>
+                <p><i class="fa-solid fa-envelope"></i> customercare@icecream.in</p>
+
+                <p><i class="fa-solid fa-phone"></i> 888888888</p>
+
+            </div>
+        </div>
+        <div class="socialMedia">
+            <p><i class="fa-brands fa-whatsapp" ></i></p>
+            <p><i class="fa-brands fa-instagram"></i></p>
+            <p><i class="fa-brands fa-facebook"></i></p>
+            <p><i class="fa-brands fa-youtube"></i></p>
+            <p><i class="fa-brands fa-twitter"></i></p>
+        </div>
+    </footer>
+</body>
+</html>
