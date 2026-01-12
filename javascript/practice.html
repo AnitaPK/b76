@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<input type="text" id="cName"/>
+<button onclick="showComName()">Submit </button>
+
+<h2 id="msg"></h2>
+
+<pre>
+    Data Type in Javascript 
+    1. String 
+    2. Number 
+    3. Boolean
+    4. Null 
+    5. Undefined
+    6. Object
+    7. BigInt
+    8. Symbol 
+
+</pre>
+<script>
+
+    alert('Hello World of Batch 76')
+
+</script>
+
+
+    <script>
+        console.log("Hello world")
+
+        console.log(100+200)
+
+       name =  prompt("Enter your name")
+       console.log(name)
+
+
+       function showComName(){
+            companyName = document.getElementById('cName').value
+            console.log(companyName);
+            document.getElementById('msg').innerHTML = "I am doing intership at "+companyName.toUpperCase() 
+
+            console.log(typeof(companyName))
+       }
+    </script>
+</body>
+</html>

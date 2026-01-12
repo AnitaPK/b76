@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demoOne"></div>
+    <p id="paraDemo" class="demoClassOne"></p>
+    <ul id="ulDemo"></ul>
+    <span class="demoClassOne"></span>
+    <div class="demoClassTwo"></div>
+
+
+<img src="../assets/offBulb.jpg" id="bulbImg">
+<button id="onOFF" >On / Off</button>
+
+<script>
+    document.getElementById("onOFF").addEventListener('click', ()=>{
+        console.log("************")
+
+    const ImgElement =  document.querySelector("#bulbImg")
+
+    if(ImgElement.getAttribute('src') == "../assets/offBulb.jpg"){
+           ImgElement.setAttribute("src", "../assets/onBulb.jpg")
+
+    }else{
+        ImgElement.setAttribute("src", "../assets/offBulb.jpg")
+    }
+    })
+</script>
+
+
+</body>
+</html>

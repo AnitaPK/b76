@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+color: white;
+}
+
+.customImge{
+    width: 50%;
+}
+.imgLOGO{
+    width: 150px;
+    height: 150px;
+}
+
+.imgColousel{
+    width: 100%;
+    height: 200px;
+}
