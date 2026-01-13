@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.HeaderOne{
+  text-align: center;
+  font-size: 40px;
+  color: darkgreen;
+}
