@@ -1,0 +1,125 @@
+.hero {
+  position: relative;
+  height: 27vh;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Hero Content */
+.hero-content {
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  animation: fadeUp 1.5s ease;
+}
+
+.hero-title {
+  font-size: 52px;
+  margin-bottom: 15px;
+  animation: slideDown 1.2s ease;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  margin-bottom: 30px;
+  animation: fadeUp 2s ease;
+}
+
+/* Button */
+.hero-btn {
+  display: inline-block;
+  padding: 14px 35px;
+  background: #fff;
+  color: #ff5e62;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #ff5e62;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Floating Ice Creams */
+.floating {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.85;
+  animation: float 6s infinite ease-in-out;
+}
+
+.ice1 {
+  left: 15%;
+  bottom: 20%;
+  animation-delay: 0s;
+}
+
+.ice2 {
+  right: 20%;
+  top: 30%;
+  animation-delay: 2s;
+}
+
+.ice3 {
+  left: 45%;
+  top: 15%;
+  animation-delay: 4s;
+}
+
+/* Animations */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-25px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+}
+
+
+.textOnImage{
+    position: relative;
+}
+.textOnImage div{
+    position: absolute;
+    top:40%;
+    left: 35%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+}

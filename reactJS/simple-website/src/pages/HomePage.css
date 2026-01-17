@@ -1,0 +1,47 @@
+.heroSecImg{
+    width: 100%;
+    height: 350px;
+}
+.productList{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 230px;
+    height: 320px;
+    background-color: aquamarine;
+    margin-right: 5px;
+    box-shadow: 2px 2px 3px 2px gray;
+
+}
+.card:hover{
+    box-shadow: 2px 2px 3px 2px rgb(249, 182, 182);
+
+}
+.card img{
+    width: 100%;
+    height: 50%;
+}
+
+.btnCard{
+    padding: 5PX 10PX;
+    background-color: PINK;
+    border-radius: 3PX;
+}
+.btnCard:hover{
+    background-color: rgb(46, 42, 43);
+    cursor: pointer;
+}
+
+
+.textOnImage{
+    position: relative;
+}
+.textOnImage div{
+    position: absolute;
+    top:40%;
+    left: 35%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+}
